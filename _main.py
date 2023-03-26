@@ -114,7 +114,7 @@ class MainWindow(QMainWindow):
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     window = MainWindow()
-    icon = QIcon("/home/shifu/projects/ico.jpg")
+    icon = QIcon("ico.jpg")
     window.setWindowIcon(icon)
     window.show()
     app.exec_()
